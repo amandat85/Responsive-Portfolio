@@ -246,3 +246,18 @@ a {
     flex-shrink: 0;
     color: #cccccc;
 }
+/* Media Queries */
+@media screen and (max-width: 980px) {
+    .main_content {
+        position: relative;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
