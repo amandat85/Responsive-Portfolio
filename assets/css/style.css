@@ -1,0 +1,248 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 34px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color:  #cccccc;
+    padding-bottom: 20px;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.page_wrap {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #4aaaa5;
+    border-color: #cccccc;
+    float: left;
+    padding: 10px 20px 10px 20px;
+    margin-left: 8px;
+    margin-top: -10px;
+}
+
+.top_menu {
+    float: right;
+    margin-top: 25px;
+    text-align: right; 
+}
+
+.border {
+    border-right-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#no_border {
+    padding-left: 10px;
+}
+
+.top_menu a {
+    color: #cccccc;
+    text-decoration-line: none;
+}
+
+.top_menu a:hover {
+    color: #4aaaa5;
+    text-decoration-line: none;
+}
+
+.top_menu a:active {
+    color: #4eeee5;
+    text-decoration-line: none;
+}
+
+a {
+    color: #4aaaa5;
+    text-decoration-line: none;
+}
+.container {
+    clear: both;
+    overflow: auto;
+    flex: 1 0 auto;
+    background-image: url("../../assets/images/vintage_speckles.png");
+    border-top-style: solid;
+    border-top-color:  #dddddd;
+    border-width: 2px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.main_content {
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px 40px 20px 30px;
+    margin: 30px 0 30px 0;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+.image-block {
+    height: 960px;
+    position: relative;
+}
+
+#bio_image {
+    float: left;
+    margin: 5px 15px 0px 0px;
+    display: block;
+}
+
+#image1 {
+    display: block;
+    position: absolute;
+    top: 5px;
+}
+
+#image2 {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 375px;
+}
+
+#image3 {
+    display: block;
+    position: absolute;
+    top: 325px;
+}
+
+#image4 {
+    display: block;
+    position: absolute;
+    top: 325px;
+    left: 375px;
+}
+
+#image5 {
+    display: block;
+    position: absolute;
+    top: 650px;
+}
+
+#text {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+}
+
+#text2 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 220px;
+    left: 375px;
+}
+
+#text3 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 540px;
+}
+
+#text4 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 540px;
+    left: 375px;
+}
+
+#text5 {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 350px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: absolute;
+    z-index: 3;
+    top: 865px;
+}
+
+#name {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#777777;
+    margin-top: -15px;
+    padding-left: 10px;
+}
+
+#email {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#777777;
+    margin-top: -15px;
+    padding-left: 10px;
+}
+
+#message {
+    border-style: solid;
+    border-width: 1px;
+    border-color:#777777;
+    margin-top: -15px;
+    padding-left: 10px;
+    min-height: 300px;
+    width: auto;
+    overflow: auto;
+}
+
+#submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 60px;
+    padding: 5px 20px 5px 20px;
+}
+
+.footer {
+    background-color: #666666;
+    border-top: #4aaaa5 solid 8px;
+    text-align: center;
+    flex-shrink: 0;
+    color: #cccccc;
+}
