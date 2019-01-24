@@ -248,16 +248,39 @@ a {
 }
 /* Media Queries */
 @media screen and (max-width: 980px) {
-    .main_content {
-        position: relative;
+    .page_wrap {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .page_wrap {
+        width: 625px;
         margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 768px) {
-
-}
-
 @media screen and (max-width: 640px) {
+    .main_content {
+        width: 350px;
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    header {
+        width: 350px;
+        
+        display: inline;
+    }
+     h1 {
+         text-align: center;
+     }
+    .top_menu {
+        text-align: left; 
+    }
 
 }
