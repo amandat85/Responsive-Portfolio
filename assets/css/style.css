@@ -263,6 +263,15 @@ a {
 }
 
 @media screen and (max-width: 640px) {
+
+    html, body {
+        height: 100%;
+    }
+
+    .page_wrap {
+        width: 350px;
+    }
+
     .main_content {
         width: 350px;
     }
@@ -274,7 +283,6 @@ a {
     header {
         width: 350px;
         
-        display: inline;
     }
      h1 {
          text-align: center;
