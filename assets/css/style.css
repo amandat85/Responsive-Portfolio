@@ -251,8 +251,7 @@ a {
     .page_wrap {
         width: 600px;
         margin: 0 auto;
-    }
-    
+    } 
 }
 
 @media screen and (max-width: 768px) {
@@ -280,6 +279,7 @@ a {
     }
     .main_content {
         width: 350px;
+        height: 100%;
         margin-left: 33px;
         margin-right: 30px;
     }
@@ -304,7 +304,110 @@ a {
         text-align: center; 
         float: none;
         padding-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 5px;    
     }
 
+    .main_container {
+        height: 105%;
+    }
+
+    .image-block {
+        width: 350px;
+        position: relative;
+    }
+
+    #image1 {
+        display: block;
+        position: absolute;
+        top: 5px;
+    }
+
+    #text {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        width: 350px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        z-index: 3;
+        top: 220px;
+    }
+    
+    #image2 {
+        display: block;
+        position: absolute;
+        top: 325px;
+        left: 0px;
+    }
+
+    #text2 {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        width: 350px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        z-index: 3;
+        top: 540px;
+        left: 0px;
+    }
+    
+    #image3 {
+        display: block;
+        position: absolute;
+        top: 650px;
+    }
+
+    #text3 {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        width: 350px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        z-index: 3;
+        top: 865px;
+    }
+    
+    #image4 {
+        display: block;
+        position: absolute;
+        top: 975px;
+        left: 0px;
+    }
+
+    #text4 {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        width: 350px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        z-index: 3;
+        top: 1200px;
+        left: 0px;
+    }
+    
+    #image5 {
+        display: block;
+        position: absolute;
+        top: 1295px;
+        margin-bottom: 2rem;
+    } 
+    
+    #text5 {
+        color: #ffffff;
+        background-color: #4aaaa5;
+        width: 350px;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: absolute;
+        z-index: 3;
+        top: 1520px;
+    }
 }
