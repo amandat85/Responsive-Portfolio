@@ -23,10 +23,15 @@ h2 {
     border-bottom-width: 1px;
     border-bottom-color:  #cccccc;
     padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 h1, h2 {
     font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 .page_wrap {
@@ -153,7 +158,7 @@ a {
     padding-bottom: 15px;
     position: absolute;
     z-index: 3;
-    top: 220px;
+    top: 240px;
 }
 
 #text2 {
@@ -165,7 +170,7 @@ a {
     padding-bottom: 15px;
     position: absolute;
     z-index: 3;
-    top: 220px;
+    top: 240px;
     left: 375px;
 }
 
@@ -178,7 +183,7 @@ a {
     padding-bottom: 15px;
     position: absolute;
     z-index: 3;
-    top: 540px;
+    top: 560px;
 }
 
 #text4 {
@@ -190,7 +195,7 @@ a {
     padding-bottom: 15px;
     position: absolute;
     z-index: 3;
-    top: 540px;
+    top: 560px;
     left: 375px;
 }
 
@@ -203,7 +208,7 @@ a {
     padding-bottom: 15px;
     position: absolute;
     z-index: 3;
-    top: 865px;
+    top: 885px;
 }
 
 #name {
@@ -249,6 +254,7 @@ a {
     text-align: center;
     flex-shrink: 0;
     color: #cccccc;
+    padding-top: 20px;
 }
 
 /* Media Queries */
@@ -272,6 +278,14 @@ a {
          padding: 0px 5px 2px 5px;
     }
 
+    h2 {
+        margin-bottom: 20px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
     .top_menu {
         float: right;
         margin-top: 15px;
@@ -288,7 +302,7 @@ a {
     }
 
     .main_container {
-        width: 2px%;
+        width: 2px;
     }
     
     #image2 {
@@ -419,6 +433,10 @@ a {
         margin-top: 10px;
         margin-bottom: 10px;
     }
+
+    .footer {
+        padding-top: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -470,7 +488,7 @@ a {
         display: block;
         position: absolute;
         top: 5px;
-        left: 345px;
+        left: 325px;
         width: 275px;
         height: 225px;
     }
@@ -478,7 +496,7 @@ a {
     #image3 {
         display: block;
         position: absolute;
-        top: 325px;
+        top: 250px;
         width: 275px;
         height: 225px;
     }
@@ -486,8 +504,8 @@ a {
     #image4 {
         display: block;
         position: absolute;
-        top: 325px;
-        left: 345px;
+        top: 250px;
+        left: 325px;
         width: 275px;
         height: 225px;
     }
@@ -495,7 +513,7 @@ a {
     #image5 {
         display: block;
         position: absolute;
-        top: 650px;
+        top: 495px;
         width: 275px;
         height: 225px;
     }
@@ -522,7 +540,7 @@ a {
         position: absolute;
         z-index: 3;
         top: 165px;
-        left: 345px;
+        left: 325px;
     }
     
     #text3 {
@@ -534,7 +552,7 @@ a {
         padding-bottom: 15px;
         position: absolute;
         z-index: 3;
-        top: 490px;
+        top: 410px;
     }
     
     #text4 {
@@ -546,8 +564,8 @@ a {
         padding-bottom: 15px;
         position: absolute;
         z-index: 3;
-        top: 490px;
-        left: 345px;
+        top: 410px;
+        left: 325px;
     }
     
     #text5 {
@@ -559,7 +577,7 @@ a {
         padding-bottom: 15px;
         position: absolute;
         z-index: 3;
-        top: 810px;
+        top: 655px;
     }
 
     #name {
@@ -623,8 +641,8 @@ a {
     .main_container {
         height: 105%;
         width: 0%;
-        margin-right: 5px;
-        padding-right: 10px;
+        margin-right: 15px;
+        padding-right: 5px;
     }
 
     header {
@@ -643,11 +661,19 @@ a {
          width: 100%;
     }
 
+    h2 {
+        margin-bottom: 20px;
+    }
+
     .top_menu {
         text-align: center; 
         float: none;
         padding-top: 5px;
         margin-bottom: 5px;    
+    }
+
+    p {
+        margin-bottom: 30px;
     }
 
     .image-block {
@@ -798,5 +824,9 @@ a {
         padding: 5px 20px 5px 20px;
         margin-top: 5px;
         margin-bottom: 10px;
+    }
+
+    .footer {
+      padding-top: 20px;
     }
 }
