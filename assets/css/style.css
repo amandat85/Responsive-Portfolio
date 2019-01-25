@@ -689,8 +689,7 @@ a {
 
     .image-block {
         width: 90%;
-        position: relative;
-       
+        position: relative; 
     }
 
     #image1 {
