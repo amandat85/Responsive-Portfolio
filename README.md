@@ -8,3 +8,4 @@ Responsive Portfolio: https://amandat85.github.io/Responsive-Portfolio/
 ## Language and Technology
 * HTML
 * CSS
+* Media Queries
